@@ -45,7 +45,7 @@ const Footer = () => {
               Your trusted multilingual healthcare assistant, available 24/7 across multiple platforms.
             </p>
             
-            <div className="bg-white p-4 rounded-xl max-w-xs">
+            {/* <div className="bg-white p-4 rounded-xl max-w-xs">
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                   <QrCode className="h-16 w-16 text-gray-400" />
@@ -54,7 +54,7 @@ const Footer = () => {
                   Scan for WhatsApp
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           
           {/* Quick Links */}

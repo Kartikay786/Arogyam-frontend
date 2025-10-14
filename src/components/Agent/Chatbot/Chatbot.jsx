@@ -104,59 +104,13 @@ function Chatbot() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col">
+    <div className="min-h-[80vh] bg-gradient-to-br mt-8 from-blue-50 via-white to-purple-50 flex flex-col">
       {/* Header */}
-      <header className="bg-white/90 backdrop-blur-md border-b border-gray-200/50 px-4 py-3 shadow-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-600 rounded-2xl flex items-center justify-center shadow-lg">
-                <Stethoscope className="w-6 h-6 text-white" />
-              </div>
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-gradient-to-r from-teal-600 to-purple-600 rounded-full flex items-center justify-center">
-                <Sparkles className="w-3 h-3 text-white" />
-              </div>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Arogyam
-              </h1>
-              <p className="text-sm text-gray-600">Your AI Medical Assistant</p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-3">
-            <div className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-teal-600/10 to-blue-600/10 rounded-xl">
-              <div className="w-3 h-3 bg-teal-600 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-gray-700">Online</span>
-            </div>
-          </div>
-        </div>
-      </header>
+  
 
       <div className="flex-1 flex">
         {/* Sidebar */}
-        <aside className="hidden lg:block w-80 bg-white/50 backdrop-blur-sm border-r border-gray-200/50 p-6">
-          <div className="space-y-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-4">
-              Quick Actions
-            </h3>
-            <div className="space-y-3">
-              {quickActions.map((action, index) => (
-                <button
-                  key={index}
-                  className="w-full flex items-center space-x-3 p-4 bg-white rounded-xl border border-gray-100 hover:border-gray-200 transition-all duration-200 hover:shadow-md group"
-                >
-                  <div
-                    className={`w-10 h-10 bg-gradient-to-r ${action.color} rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200`}
-                  >
-                    <action.icon className="w-5 h-5 text-white" />
-                  </div>
-                  <span className="font-medium text-gray-700">{action.text}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </aside>
+      
 
         {/* Chat */}
         <main className="flex-1 flex flex-col">

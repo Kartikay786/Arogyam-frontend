@@ -132,9 +132,8 @@ const Hero2 = () => {
             </div>
 
             <p ref={subtitleRef} className="text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Experience next-generation healthcare guidance with AI-powered symptom analysis,
-              instant medical insights, and personalized care recommendations in over
-              <span className="text-blue-400 font-semibold"> 50 languages</span>.
+              Securely centralize records, analyze scans with AI, chat with doctors, and get personalized insights.
+              {/* <span className="text-blue-400 font-semibold"> 50 languages</span>. */}
             </p>
 
             <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

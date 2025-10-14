@@ -32,44 +32,45 @@ const Features = () => {
     return () => ctx.revert();
   }, []);
 
-  const features = [
-    {
-      icon: Globe,
-      title: 'Multilingual Support',
-      description: 'Communicate in over 50 languages with real-time translation and culturally-aware responses',
-      color: 'blue'
-    },
-    {
-      icon: Lightbulb,
-      title: 'Health Tips & Education',
-      description: 'Receive personalized health tips, wellness advice, and educational content tailored to your needs',
-      color: 'green'
-    },
-    {
-      icon: Shield,
-      title: 'Vaccination Alerts',
-      description: 'Stay updated with vaccination schedules, reminders, and location-based availability information',
-      color: 'teal'
-    },
-    {
-      icon: Stethoscope,
-      title: 'Symptom Checker',
-      description: 'Intelligent symptom assessment with guided questions and appropriate care recommendations',
-      color: 'blue'
-    },
-    {
-      icon: MessageSquare,
-      title: 'Government Health Scheme',
-      description: 'Provides personalized recommendations for relevant government health schemes.',
-      color: 'green'
-    },
-    {
-      icon: Smartphone,
-      title: 'Disease Accuracy',
-      description: 'Uses curated medical datasets and AI-powered retrieval-based Q&A to provide 85% + accurate responses for symptom queries and first-aid guidance.',
-      color: 'teal'
-    }
-  ];
+const features = [
+  {
+    icon: Globe,
+    title: 'AI Health Chatbot',
+    description: 'Interact with our intelligent health assistant to describe your symptoms and receive instant, reliable medical guidance and recommendations.',
+    color: 'blue'
+  },
+  {
+    icon: Lightbulb,
+    title: 'Centralized Health Records',
+    description: 'Securely upload, store, and manage all your medical documents, prescriptions, and lab reports in one convenient and accessible place.',
+    color: 'green'
+  },
+  {
+    icon: Shield,
+    title: 'Vaccination Alerts & Tracking',
+    description: 'Stay informed with timely vaccination reminders, personalized schedules, and location-based updates on vaccine availability.',
+    color: 'teal'
+  },
+  {
+    icon: Stethoscope,
+    title: 'OCR-Powered Report Analysis',
+    description: 'Automatically extract and interpret key data from scanned medical reports and PDFs to make record-keeping effortless and organized.',
+    color: 'blue'
+  },
+  {
+    icon: MessageSquare,
+    title: 'Government Health Scheme Advisor',
+    description: 'Get AI-driven suggestions for health schemes and benefits you’re eligible for, helping you make the most of available government programs.',
+    color: 'green'
+  },
+  {
+    icon: Smartphone,
+    title: 'AI-Based Scan Analysis',
+    description: 'Leverage advanced AI to detect potential abnormalities in X-rays, MRIs, or other scans, supporting faster and more accurate diagnostics.',
+    color: 'teal'
+  }
+];
+
 
   const getColorClasses = (color) => {
     switch (color) {

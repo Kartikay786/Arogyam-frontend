@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero2 from '../Hero2'
-import Features from '../Features'
-import HowItWorks from '../HowItWorks'
-import DemoWidget2 from '../DemoWidgets2'
-import Impact from '../Impact'
-import Footer from '../Footer'
+import Hero2 from './Sections/Hero2'
+import Features from './Sections/Features'
+import HowItWorks from './Sections/HowItWorks'
+import DemoWidget2 from './Sections/DemoWidgets2'
+import Impact from './Sections/Impact'
+import Footer from './Sections/Footer'
 
 const Home = () => {
     return (
