@@ -147,7 +147,7 @@ const Hero2 = () => {
                 <QrCode className="h-5 w-5 relative z-10 group-hover:rotate-12 transition-transform duration-300" />
               </button> */}
 
-              <Link to='/chatbot'>
+              <Link to='/dashboard/d'>
               <button
                 // onClick={() => setShowQR(!showQR)}
                 className="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-semibold flex items-center justify-center gap-3 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25"
